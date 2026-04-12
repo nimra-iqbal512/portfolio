@@ -8,10 +8,11 @@ A 3D portfolio describing my experience and skills
 - Vite -> build tool and dev server
 - React 19 -> UI library
 - Tailwind v3.4.17 -> utility-first CSS styling
+- three -> pre requisite of @react-three/fiber and @react-three/drei
 - @react-three/fiber -> React renderer for Three.js (lets you write 3D scenes as React components)
 - @react-three/drei -> helper components and utilities built on top of @react-three/fiber
 - maath -> mathematical functions, geometry and utility helpers for 3D
-- react-tilt (with --legacy-peer-deps) -> tilt animation effect on hover for cards
+- react-parallax-tilt -> tilt animation effect on hover for cards
 - react-vertical-timeline-component -> vertical timeline UI, similar to LinkedIn's experience section
 - @emailjs/browser -> send emails directly from the browser without a backend
 - framer-motion -> animations and transitions
@@ -52,8 +53,7 @@ A 3D portfolio describing my experience and skills
 
 3. Installed dependencies:
 ```bash
-   npm install @react-three/fiber @react-three/drei maath react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
-   npm install react-tilt --legacy-peer-deps
+   npm install three @react-three/fiber @react-three/drei maath react-parallax-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
 ```
 
 4. Run the dev server:
