@@ -60,7 +60,3 @@ A 3D portfolio describing my experience and skills
 ```bash
    npm run dev
 ```
-
-### Issues & Fixes
-- **react-tilt peer dependency conflict** — Used `--legacy-peer-deps` since react-tilt
-  expects `@types/react@^18` but the project uses React 19.

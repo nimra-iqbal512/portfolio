@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
+import { SectionWrapper } from '../hoc';
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -48,4 +49,6 @@ const About = () => {
   )
 }
 
-export default About
+// Here our component About is being wrapped by the HOC SectionWrapper and we are passing the idName as "about" to it. 
+// This means that when we use the About component, it will be wrapped by the SectionWrapper and it will have the id "about" which can be used for navigation or styling purposes.
+export default SectionWrapper(About, "about")
